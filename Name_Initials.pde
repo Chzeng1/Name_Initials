@@ -1,13 +1,27 @@
-size(500,500);
-background(0,0,255);
-fill(255,0,0);
-noStroke();
-ellipse(360,72,50,50);
-rect(200,49,150,30);
-ellipse(360,356,50,50);
-rect(200,349,150,30);
-noFill();
-strokeWeight(30);
+background(255,255,255);
+//box 
 stroke(0);
-arc(200,213,200,300,radians(90),radians(270));
+strokeWeight(4);
+fill(255,255,255);
+background(255,255,255);
+
+//back z 
+fill(0,0,0);
+quad(483,124,450,124,209,397,272,397);
+
+//color of Z
+noStroke();
+fill(255,0,0);
+rect(130,90,320,35);
+rect(150,400,320,35);
+
+//diagonal rectangle
+noStroke();
+quad(450,125,210,400,150,400,400,125);
+fill(0,0,0);
+rect(130,125,270,20);
+rect(450,400,35,35);
+rect(150,430,335,35);
+rect(450,90,35,38);
+
 
