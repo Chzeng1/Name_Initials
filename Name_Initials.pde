@@ -1,3 +1,5 @@
+size(600,600); 
+
 background(255,255,255);
 //box 
 stroke(0);
@@ -14,7 +16,6 @@ noStroke();
 fill(255,0,0);
 rect(130,90,320,35);
 rect(150,400,320,35);
-
 //diagonal rectangle
 noStroke();
 quad(450,125,210,400,150,400,400,125);
